@@ -1,0 +1,29 @@
+{
+  "name": "correos-cl-postal-code-scraper",
+  "version": "1.0.0",
+  "description": "Node.js + Playwright scraper that extracts Chilean postal codes from correos.cl and returns JSON-formatted results, ready to use in any API or modern backend.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandrehl/correos-cl-postal-code-scraper.git"
+  },
+  "author": "Alejandro Exequiel Hernández Lara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alejandrehl/correos-cl-postal-code-scraper/issues"
+  },
+  "homepage": "https://github.com/Alejandrehl/correos-cl-postal-code-scraper#readme",
+  "dependencies": {
+    "playwright": "^1.42.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
